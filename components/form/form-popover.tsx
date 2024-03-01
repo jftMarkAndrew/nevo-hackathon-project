@@ -68,7 +68,7 @@ export const FormPopover = ({
         sideOffset={sideOffset}
       >
         <div className="text-sm font-medium text-center text-neutral-600 pb-4">
-          Create board
+          Creating a task
         </div>
         <PopoverClose ref={closeRef} asChild>
           <Button
@@ -86,7 +86,7 @@ export const FormPopover = ({
             />
             <FormInput
               id="title"
-              label="Board title"
+              label="Gite it a name"
               type="text"
               errors={fieldErrors}
             />

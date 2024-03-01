@@ -89,7 +89,7 @@ export const CardForm = forwardRef<HTMLTextAreaElement, CardFormProps>(({
         />
         <div className="flex items-center gap-x-1">
           <FormSubmit>
-            Add card
+            Confirm
           </FormSubmit>
           <Button onClick={disableEditing} size="sm" variant="ghost">
             <X className="h-5 w-5" />
@@ -108,7 +108,7 @@ export const CardForm = forwardRef<HTMLTextAreaElement, CardFormProps>(({
         variant="ghost"
       >
         <Plus className="h-4 w-4 mr-2" />
-        Add a card
+        I want to volunteer
       </Button>
     </div>
   );

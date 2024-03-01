@@ -73,7 +73,7 @@ export const Sidebar = ({
     <>
       <div className="font-medium text-xs flex items-center mb-1">
         <span className="pl-4">
-          Workspaces
+          Projects
         </span>
         <Button
           asChild

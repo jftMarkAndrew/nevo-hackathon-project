@@ -12,7 +12,7 @@ const MarketingLayout = ({
       <main className="pt-40 pb-20 bg-slate-100">
         {children}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
