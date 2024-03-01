@@ -39,7 +39,7 @@ export const SubscriptionButton = ({
       onClick={onClick}
       disabled={isLoading}
     >
-      {isPro ? "Manage subscription" : "Upgrade to pro"}
+      {isPro ? "Donate" : "Donate"}
     </Button>
   )
 };
