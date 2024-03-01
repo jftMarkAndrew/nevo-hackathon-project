@@ -43,14 +43,9 @@ export const NavItem = ({
 
   const routes = [
     {
-      label: "Boards",
+      label: "Tasks",
       icon: <Layout className="h-4 w-4 mr-2" />,
       href: `/organization/${organization.id}`,
-    },
-    {
-      label: "Activity",
-      icon: <Activity className="h-4 w-4 mr-2" />,
-      href: `/organization/${organization.id}/activity`,
     },
     {
       label: "Settings",
@@ -58,7 +53,7 @@ export const NavItem = ({
       href: `/organization/${organization.id}/settings`,
     },
     {
-      label: "Billing",
+      label: "Donate",
       icon: <CreditCard className="h-4 w-4 mr-2" />,
       href: `/organization/${organization.id}/billing`,
     },
