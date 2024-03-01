@@ -12,15 +12,12 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "@/components/ui/carousel";
 import { Rebuild } from "./_components/rebuild";
 
 const MarketingPage = () => {
   return (
-
     <div className="flex items-center justify-center flex-col w-full">
-      
-
       <Carousel>
         <CarouselContent>
           <CarouselItem>
@@ -28,22 +25,18 @@ const MarketingPage = () => {
           </CarouselItem>
           <CarouselItem>
             <Rebuild />
-            </CarouselItem>
+          </CarouselItem>
           <CarouselItem>
             <Rebuild />
-            </CarouselItem>
+          </CarouselItem>
         </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+        <CarouselPrevious />
+        <CarouselNext />
       </Carousel>
 
-
       <Button className="mt-6" size="lg" asChild>
-        <Link href="/sign-up">
-          Let&apos;s get started!
-        </Link>
+        <Link href="/sign-up">Let&apos;s get started!</Link>
       </Button>
-
     </div>
   );
 };

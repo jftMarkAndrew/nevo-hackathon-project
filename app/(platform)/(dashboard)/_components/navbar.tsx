@@ -21,7 +21,11 @@ export const Navbar = () => {
           </Button>
         </FormPopover> */}
         <FormPopover>
-          <Button variant="primary" size="sm" className="rounded-sm block md:hidden">
+          <Button
+            variant="primary"
+            size="sm"
+            className="rounded-sm block md:hidden"
+          >
             <Plus className="h-4 w-4" />
           </Button>
         </FormPopover>
@@ -49,8 +53,8 @@ export const Navbar = () => {
               avatarBox: {
                 height: 30,
                 width: 30,
-              }
-            }
+              },
+            },
           }}
         />
       </div>
