@@ -1,4 +1,4 @@
 export const siteConfig = {
-  name: "Healing Israel.",
+  name: "Rebuilding. Restoring. Reviving.",
   description: "Helping rebuild the communities and souls.",
 };
