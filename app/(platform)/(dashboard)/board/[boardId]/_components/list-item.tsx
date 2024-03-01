@@ -40,7 +40,7 @@ export const ListItem = ({
         <li 
           {...provided.draggableProps}
           ref={provided.innerRef}
-          className="shrink-0 h-full w-[272px] select-none"
+          className="shrink-0 h-full w-3/12 select-none"
         >
           <div 
             {...provided.dragHandleProps}
