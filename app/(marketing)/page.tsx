@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import Autoplay from "embla-carousel-autoplay";
 
 import { cn } from "@/lib/utils";
 import { Poppins } from "next/font/google";
@@ -36,7 +39,17 @@ const MarketingPage = () => {
           home. You can help them.
         </div>
         <div className="flex items-center justify-center flex-col gap-4 w-full h-full">
-          <Carousel>
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            plugins={[
+              Autoplay({
+                delay: 3000,
+              }),
+            ]}
+          >
             <CarouselContent>
               <CarouselItem>
                 <div
@@ -87,7 +100,7 @@ const MarketingPage = () => {
           size="lg"
           asChild
         >
-          <Link href="/board/404d6779-9e87-444b-bcc7-e13708d63b23">
+          <Link href="/board/5652b0f4-601a-4d61-a431-91aa3a713529">
             Volunteer
           </Link>
         </Button>
