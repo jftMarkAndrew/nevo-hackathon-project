@@ -78,7 +78,7 @@ export const CardForm = forwardRef<HTMLTextAreaElement, CardFormProps>(({
           id="title"
           onKeyDown={onTextareakeyDown}
           ref={ref}
-          placeholder="Enter a title for this card..."
+          placeholder="Enter the volunteer name and contact information"
           errors={fieldErrors}
         />
         <input
@@ -108,7 +108,7 @@ export const CardForm = forwardRef<HTMLTextAreaElement, CardFormProps>(({
         variant="ghost"
       >
         <Plus className="h-4 w-4 mr-2" />
-        I want to volunteer
+        Add a Volunteer
       </Button>
     </div>
   );
