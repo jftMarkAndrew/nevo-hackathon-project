@@ -86,7 +86,7 @@ export const FormPopover = ({
             />
             <FormInput
               id="title"
-              label="Gite it a name"
+              label="Give it a name"
               type="text"
               errors={fieldErrors}
             />
